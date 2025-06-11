@@ -1,0 +1,41 @@
+{
+    "Eclipse Commander": {
+		"bodytype": "BodyMale1",
+		"body_material": "res://Materials/Human/efp_material_1.tres",
+		"face_material":"res://Materials/Human/face_material_8.tres",
+		"strength": 5,
+		"speed": 10,
+		"perception": 8,
+		"agility": 5,
+		"bioenergy": 10,
+		"vitality": 5,
+		"luck": 5,
+		"lack": 8,
+		"dna_damage": 0,
+		"weapon_1": "Automag V",
+		"weapon_2": "EFP KZ-24",
+		"l_weapon": "Rheinstahl Riotgun",
+		"r_weapon": "Ikon 25mm Rifle",
+		"a_weapon": "V134 Smallgun",
+		"torso": "empty_part",
+		"head": "empty_part",
+		"arms": "empty_part",
+		"legs": "empty_part",
+		"slot_1": "Discreet Flashlight",
+		"slot_2": "empty_part",
+		"mech_core": "EFP Heavy Core",
+		"mech_armor": "EFP Standard Armor",
+		"mech_legs": "EFP Heavy Legs",
+		"mech_engine": "Type 1 Orgone Engine",
+		"mech_slot_1": "Targeting Computer",
+		"mech_slot_2": "Night Vision Unit",
+		"starting_items": {
+			"Energy Drink": 5,
+			"EFP Cigarette Pack": 2
+		},
+		"custom": {
+			"head_mesh": "res://Models/orbhead.obj",
+			"scale": 0.854
+		}
+	}
+}
