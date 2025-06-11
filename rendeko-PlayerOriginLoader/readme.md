@@ -1,3 +1,5 @@
+![Mod Preview](preview.jpg)
+
 This mod allows you to load custom origins for the player.
 
 # Features
