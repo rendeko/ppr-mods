@@ -3,7 +3,7 @@ Install [ppr-modloader](https://github.com/CruS-Modding-Infrastructure/ppr-modlo
 
 # Mods
 ## PlayerOriginLoader
-Allows you to load custom player origins from json files.
+Allows loading custom player origins from other zipped mods
 
 ## UnloadSFX
 Adds back the unload SFX from the pre-release footage

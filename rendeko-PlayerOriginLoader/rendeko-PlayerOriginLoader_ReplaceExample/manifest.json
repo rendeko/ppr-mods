@@ -1,11 +1,11 @@
 {
-	"name": "PlayerOriginLoader",
+	"name": "PlayerOriginLoader_ReplaceExample",
 	"namespace": "rendeko",
 	"version_number": "1.0.0",
-	"description": "Allows players to load custom origins from json files",
-	"website_url": "github.com/rendeko/ppr-mods",
+	"description": "Replaces Recruit with Teto Lorenzo",
+	"website_url": "",
 	"dependencies": [
-
+		"rendeko-PlayerOriginLoader"
 	],
 	"extra": {
 		"godot": {

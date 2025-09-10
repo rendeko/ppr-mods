@@ -1,32 +1,35 @@
 ![Mod Preview](preview.jpg)
+![Mod Preview2](preview2.jpg)
 
 This mod allows you to load custom origins for the player.
 
 # Features
-- Create an origin with custom stats, equipment, and mech loadout
-- Customize your character using existing or new textures and meshes
+- Create an origin with custom stats, body parts, equipment, weapons, and mech loadout
+- Replace existing origins with modified ones
+- Customize your character using existing or new textures and meshes, as well as custom scaling
 
 # Installation
 1. Install [ppr-modloader](https://github.com/CruS-Modding-Infrastructure/ppr-modloader), then move the zipped mod from Releases into your `mods` directory.
-2. Create a PlayerOriginLoader folder in your user folder and place the origin .json files you want into that folder
-(On Windows, your user folder is located at %AppData%\Roaming\Godot\app_userdata\Psycho Patrol R)
+2. Move other zipped mods or the example mods into your `mods` directory as well.
 
-Some example origins have been placed in the "PlayerOriginLoader" folder of this repo.
+# Contents
+- PlayerOriginLoader contains the framework mod required to load custom origins.
+- PlayerOriginLoader-Examples contains several examples of new custom origins, including a custom head
+- PlayerOriginLoader_ReplaceExample contains an example that replaces Recruit, including a custom hair with a custom mesh
 
 # FAQ
 ### Q: How do I make an origin?
-A: Copy an existing origin json from the provided files into the PlayerOriginLoader folder and modify the desired entries
-### Q: Why not release origins as individual mods?
-A: Character customization is very hard-coded in PPR, and this mod performs significant redesign to the system. Distributing each origin as a mod would be ~300 lines of likely conflicting code. My goal for this mod is for it to act as a framework for other users/modders to make custom origins as simply as possible.
+A: Look at the existing example mods and the ppr-modloader instructions to see how to create a mod.
 ### Q: My origin is not appearing
-A: Check logs/modloader.log in your user folder for any errors.
-### Q: My body parts aren't loading correctly/my female heads are loading as male heads
+A: Check logs/modloader.log in your user folder for any errors. I suggest setting up a Godot development environment so you can inspect the game while you test.
+### Q: My body parts aren't loading correctly
 A: Please send me your logs/modloader.log file through the #ppr-modding channel in the PPR Discord
 
 # Known Bugs
-- Head meshes may not be swapping correctly. Please report any instances with your logs/modloader.log file in the Discord.
+- "Return to Title Screen" is not supported, as it has equipment persistence bugs in the vanilla game. Exit the game and re-launch to fix equipment persistence
+
+Please report any bugs with your logs/modloader.log file in the Discord.
 
 # To-Do
-- Allow for replacing/customizing default origins
-- Make more options for aligning/scaling armor and equipment on different bodies, heads
-- Hide head when head_mesh is defined (currently default head is not hidden)
+- Un-hardcode scale values
+- Allow for scaling helmet when custom_head is set

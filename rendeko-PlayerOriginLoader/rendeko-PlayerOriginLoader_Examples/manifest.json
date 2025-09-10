@@ -1,10 +1,10 @@
 {
-	"name": "UnloadSFX",
+	"name": "PlayerOriginLoader_Examples",
 	"namespace": "rendeko",
 	"version_number": "1.0.0",
-	"description": "Adds back the unload SFX when unloading your firearm",
+	"description": "Adds several additional origins",
 	"website_url": "",
-	"dependencies": [],
+	"dependencies": ["rendeko-PlayerOriginLoader"],
 	"extra": {
 		"godot": {
 			"authors": ["rendeko"],
